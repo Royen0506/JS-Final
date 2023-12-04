@@ -224,7 +224,6 @@ orderInfoBtn.addEventListener("click", (e) => {
       }
     )
     .then((response) => {
-      console.log(response);
       alert("訂單已成功送出");
       customerName.value = "";
       customerPhone.value = "";
